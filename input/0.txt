@@ -1,0 +1,10 @@
+A Y
+B X
+C Z
+
+
+A-ROCK                X-ROCK 
+
+B-PAPER               Y-PAPER
+
+C-SCISSORCS           Z-SCISSORCS
