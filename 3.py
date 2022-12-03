@@ -1,6 +1,5 @@
 inputFile = './input/3.txt'
 d = []
-e = []
 puntentotaal = 0
 
 with open(inputFile) as f:
@@ -29,10 +28,7 @@ print(puntentotaal)
 
 ##PT 2
 def returnGroupLetter(rugzakkenLijst):
-    letterPlaceHolder = ''
-    # ['blabla','tata','djokdjoak']
     alleZakken = ''.join(rugzakkenLijst)
-    # blablatatadjokdjoak
     for letter in alleZakken:
         if letter in rugzakkenLijst[0] and letter in rugzakkenLijst[1] and letter in rugzakkenLijst[2]:
             return letter
