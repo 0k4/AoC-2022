@@ -1,7 +1,6 @@
 with open('./input/4.txt') as f:
     c = 0
     def zitLijstinLijst(A, B):
-        print(', '.join(map(str, A))+'-----------'+', '.join(map(str, B)))
         return ', '.join(map(str, A)) in ', '.join(map(str, B))
     for elfenpaar in f.read().split("\n"):
         g1 = int(elfenpaar.split(sep=',')[0].split('-')[0])
